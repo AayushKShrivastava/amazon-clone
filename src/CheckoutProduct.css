@@ -16,10 +16,22 @@
     color: #111;
 }
 
+.checkoutProduct_info > button:hover{
+    transform: scale(0.98);
+    transition-duration: 1s;
+}
+
 .checkoutProduct_image {
     object-fit: contain;
+    max-width: 100%;
     width: 100px;
     height: 180px;
+}
+
+.checkoutProduct_image:hover{
+    transform: scale(1.2);
+    transition-duration: 1s;
+    box-shadow: 0 7px 30px -10px rgba(150,170,180,0.5);
 }
 
 .checkoutProduct_rating {

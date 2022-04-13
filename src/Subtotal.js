@@ -3,10 +3,11 @@ import './Subtotal.css'
 import CurrencyFormat from 'react-currency-format'
 import { useStateValue } from './StateProvider'
 import { getBasketTotal } from './reducer'
+import {useNavigate} from 'react-router-dom'
 
 function Subtotal() {
-
-    const [{basket}] = useStateValue()
+    const navigate = useNavigate()
+    const [{basket, user}] = useStateValue()
     
   return (
     <div className='subtotal'>
@@ -25,9 +26,9 @@ function Subtotal() {
             value={getBasketTotal(basket)}
             displayType={'text'}
             thousandSeparator={true}
-            prefix={'$'}
+            prefix={'₹'}
         />
-        <button>Proceed to Checkout</button>
+        <button onClick={e => getBasketTotal(basket) <= 0 ? navigate('/') : user ? navigate('/payment') : navigate('/login')}>{getBasketTotal(basket) <= 0 ? 'Add Items to Basket' : user ? 'Proceed to Checkout' : 'Sign in to Checkout'}</button>
     </div>
   )
 }

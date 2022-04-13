@@ -3,6 +3,7 @@ import './Checkout.css'
 import CheckoutProduct from './CheckoutProduct'
 import { useStateValue } from './StateProvider'
 import Subtotal from './Subtotal'
+import {nanoid} from 'nanoid'
 
 function Checkout() {
     const [{basket, user}] = useStateValue()
@@ -23,7 +24,7 @@ function Checkout() {
                 
                 {basket.map(item => (
                     <CheckoutProduct 
-                        key = {item.id}
+                        key = {nanoid()}
                         id = {item.id}
                         title = {item.title}
                         price = {item.price}

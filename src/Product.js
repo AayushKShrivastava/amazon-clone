@@ -24,12 +24,12 @@ function Product({id, title, image, price, rating}) {
       <div className='product_info'>
         <p>{title}</p>
         <p className='product_price'>
-          <small>$</small>
+          <small>₹</small>
           <strong>{price}</strong>
         </p>
         <div className='product_rating'>
-          {Array(rating).fill().map(()=> (
-            <p>⭐</p>
+          {Array(rating).fill().map((_, i)=> (
+            <p key={i}>⭐</p>
           ))}
         </div>
       </div>

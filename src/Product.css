@@ -29,8 +29,15 @@
 .product > img {
     max-height: 200px;
     width: 100%;
+    max-width: fit-content;
     object-fit: contain;
     margin-bottom: 15px;
+}
+
+.product > img:hover{
+    transform: scale(1.2);
+    transition-duration: 1s;
+    box-shadow: 0 7px 30px -10px rgba(150,170,180,0.5);
 }
 
 .product > button {

@@ -13,7 +13,7 @@ function Home() {
             key={nanoid()}
             id = {nanoid()}
             title = 'The Lean Startup: How Constant Innovation Creates Radically Successful Business Paperback'
-            price = {19.99}
+            price = {646}
             image = 'https://images-eu.ssl-images-amazon.com/images/I/51Zymoq7UnL.AC_SY400_.jpg'
             rating = {5}
           />
@@ -21,8 +21,8 @@ function Home() {
             key={nanoid()}
             id = {nanoid()}
             title = 'Kenwood kMix Stand Mixer for Baking, Stylish Kichen Mixer with k-beater, Dough Hook and Whisk, 5 Litre Glass Bowl'
-            price = {239}
-            image = 'https://m.media-amazon.com/images/I/51yd+TT6YuL._SL1200_.jpg'
+            price = {42995}
+            image = 'https://m.media-amazon.com/images/I/71y+BAYVL5S._SL1500_.jpg'
             rating = {4}
           />
         </div>
@@ -31,7 +31,7 @@ function Home() {
             key={nanoid()}
             id = {nanoid()}
             title = "Samsung LC87YTUHTI34UY4' Curved LED Gaming Monitor"
-            price = {199.99}
+            price = {22998}
             image = 'https://images-na.ssl-images-amazon.com/images/I/71Swqqe7XAL._AC_SX466_.jpg'
             rating = {3}
           />
@@ -39,7 +39,7 @@ function Home() {
             key={nanoid()}
             id = {nanoid()}
             title = 'Amazon Echo (3rd Generation) | Smart Speaker with Alexa, Charcoal Fabric'
-            price = {98.99}
+            price = {2999}
             image = "https://m.media-amazon.com/images/I/61EXU8BuGZL._SL1100_.jpg"
             rating = {5}
           />
@@ -47,7 +47,7 @@ function Home() {
             key={nanoid()}
             id = {nanoid()}
             title = 'New Apple iPad Pro (12.9-inch, Wifi, 128GB) - Siver (4th Generation)'
-            price = {598.99}
+            price = {126900}
             image = 'https://images-na.ssl-images-amazon.com/images/I/816ctt5WV5L._AC_SX385_.jpg'
             rating = {4}
           />
@@ -57,7 +57,7 @@ function Home() {
             key={nanoid()}
             id = {nanoid()}
             title = "Samsung LCirt798tu055ut8 49' Curved LED Gaming Monitor - Super Ultrawide Dual WQHD 5120 x 1440"
-            price = {1098.55}
+            price = {89999}
             image = 'https://images-na.ssl-images-amazon.com/images/I/6125mFrzr6L._AC_SX355_.jpg'
             rating = {4}
           />
