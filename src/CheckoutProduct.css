@@ -14,11 +14,11 @@
     margin-top: 10px;
     border-color: #a88734 #9c7e31 #846a29;
     color: #111;
+    cursor: pointer;
 }
 
-.checkoutProduct_info > button:hover{
-    transform: scale(0.98);
-    transition-duration: 1s;
+.checkoutProduct_info > button:active {
+    transform: scale(0.95);
 }
 
 .checkoutProduct_image {

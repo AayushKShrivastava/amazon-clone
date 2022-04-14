@@ -49,4 +49,14 @@
     cursor: pointer;
 }
 
+.payment_details > form > div > button:active {
+    transform: scale(0.95);
+}
+
+.payment_priceContainer {
+    margin: 15px;
+    padding: 20px;
+    border: 1px solid lightgray;
+}
+
 
